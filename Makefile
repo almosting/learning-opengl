@@ -18,7 +18,7 @@ LFLAGS =
 OUTPUT	:= output
 
 # define source directory
-SRC		:= src/$(dir)
+SRC		:= src\$(dir)
 CLEAN_SRC := src\$(dir)\*.o
 
 # define include directory
@@ -67,7 +67,7 @@ OBJECTS		:= $(SOURCES:.cpp=.o)
 OUTPUTMAIN	:= $(call FIXPATH,$(OUTPUT)/$(MAIN))
 
 all: $(OUTPUT) $(MAIN)
-	@echo Executing 'all' complete!
+	@echo Executing $(dir) complete!
 
 $(OUTPUT):
 	$(MD) $(OUTPUT)
