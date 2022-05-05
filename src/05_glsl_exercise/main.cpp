@@ -47,7 +47,7 @@ int main()
 
     // build and compile our shader program
     // ------------------------------------
-    Shader ourShader("src/glsl_exercise/vertex.glsl", "src/glsl_exercise/fragment.glsl"); // you can name your shader files however you like
+    Shader ourShader("src/05_glsl_exercise/vertex.glsl", "src/05_glsl_exercise/fragment.glsl"); // you can name your shader files however you like
 
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
